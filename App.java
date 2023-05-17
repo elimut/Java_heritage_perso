@@ -7,5 +7,6 @@ public class App {
         luffy.move(32, 30);
         System.out.println(luffy);
         System.out.println(ariel);
+        ariel.swim(32, 30, 10);
     }
 }
