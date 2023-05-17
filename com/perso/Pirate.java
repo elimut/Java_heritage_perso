@@ -1,9 +1,9 @@
 package com.perso;
 
 public class Pirate {
-    private String name;
-    private int posX;
-    private int posY;
+    protected String name;
+    protected int posX;
+    protected int posY;
 
     public Pirate(String name)
     {
@@ -17,7 +17,7 @@ public class Pirate {
     {
         this.posX = x;
         this.posY = y;
-        System.out.println("Le pirate se déplace en x" + this.posX + "et en y" +this.posY);
+        System.out.println("Le pirate se déplace en x" + ""+ this.posX +""+ "et en y" +"" +this.posY);
     }
     
 }
