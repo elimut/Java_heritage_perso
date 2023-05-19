@@ -2,7 +2,7 @@ package com.environnement;
 
 abstract public class Vehicule {
 // mot clef abstract qui définit la classe abstraite
-    protected String speed;
+    protected String spened;
 
     abstract public void deplacer();
     // méthode abstraite, non implémentée
